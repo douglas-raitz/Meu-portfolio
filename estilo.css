@@ -4,7 +4,7 @@
     margin: 0;
 }
 body {
-    background:#246669;
+    background:#EEE;
     font-family: 'Roboto', sans-serif;
 }
 nav{
@@ -38,10 +38,9 @@ fieldset{
     box-shadow: 2px 2px 2px #011d32;
 }
 legend{
-    color: #51ECF3;
-    font-weight: 700;
+    color: #123234;
+    font-weight: 1000;
     letter-spacing: 3px;
-    text-shadow: 2px 2px 2px #011d32;
     margin-left: 20px;
 }
 h3{
@@ -139,7 +138,7 @@ h4{
 .links a{
     padding: 7px 10px;
     text-decoration: none;
-    color: #369BA0;
+    color: #EEE;
     font-weight: 600;
     font-size: 18px;
 }
@@ -180,9 +179,6 @@ h4{
 }
 #linkd{
     border-radius: 15px;
-}
-.text-white{
-    color: #DDD;
 }
 .content-p3{
     display: block;
@@ -238,17 +234,20 @@ h4{
     display: flex;
     width: 250px;
     height: 250px;
-    background-color: #fff;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
     align-items:center;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
 }
 .link-a :hover{
     background-color: #369BA0;
     color:#fff;
+    border-radius: 50px;
 }
 .cardcontent{
    padding: 10px;
@@ -270,8 +269,7 @@ h4{
 }
 .h2{
     text-align: center;
-    color: #0cd0cd;
-    text-shadow: 2px 2px 2px #011d32;
+    color: #123234;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -377,12 +375,12 @@ h4{
     margin-bottom: 30px;
 }
 .voltar-projetos a {
-    text-shadow: 2px 2px 2px #011d32;
     text-decoration: none;
-    color: #fff;
+    font-weight: 800;
+    color: #123234;
 }
 .voltar-projetos a:hover{
-    color: #51ECF3;
+    color: #369BA0;
 }
 
 /* ESTILO DO FORMULARIO --- */
