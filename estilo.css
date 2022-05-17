@@ -8,8 +8,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 nav{
-    padding: 10px;
-    background-color: #123234;
+    display: flex;
+    height: 50px;
+    background: rgba(5,7,26,0.7);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 forte{
     color: #123234;
@@ -58,37 +63,9 @@ h4{
     text-decoration: none;
     color: #369BA0;
 }
-#menu-opener {
-    width:40px;
-    height:40px;
-    cursor:pointer;
-    margin-top:10px;
-    margin-left:10px;
-    z-index: 999;
-}
-#menu-opnener img:hover{
-    color: #369BA0;
-}
-#menu-area {
-    width:0;
-    height:100vh;
-    background-image: linear-gradient(#020707 ,#123234,#369BA0);
-    overflow-x:hidden;
-    overflow-y:auto;
-    transition: all ease .5s;
-}
+
 .lista{
     font-family: 'Roboto', sans-serif;
-}
-#menu-area .menu-left a{
-    display:block;
-    padding:10px;
-    color:#369BA0;
-    cursor:pointer;
-    text-decoration: none;
-}
-#menu-area a:hover{
-    color: #51ECF3;
 }
 .imagem{
  height: 500px;
@@ -97,32 +74,17 @@ h4{
     width: 640px;
     height: 500px;
 }
-.doc-user{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    align-content: center;
-    padding: 5px;
-    width: 100%;
-    height: 70px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-.name-user{
-    display: flex;
-    align-items: center;
-    letter-spacing: 2px;
-    font-weight: 500;
-    color: #51ECF3;
-    margin-left: 0;
-    font-family: 'Sansita Swashed', cursive;
-}
 .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    position: fixed;
+    top: 0;
+    width: 87%;
+    height: 50px;
+    
 }
 .titulo h3{
     padding: 7px;
@@ -143,7 +105,7 @@ h4{
     font-size: 18px;
 }
 .links a:hover{
-    color: #51ECF3;
+    border-bottom:3px solid #51ECF3;
 }
 .link-rs{
     padding: 5px;
@@ -212,18 +174,16 @@ h4{
     right: 25px;
     bottom: 120px;
     text-align: center;
-    color: #51ECF3;
+    color: #123234;
     padding: 3px;
-    border: 1px solid #51ECF3;
+    border: 1px solid #123234;
     border-radius: 10px;
     align-items: center;
     display: none;
     box-shadow: 1px 2px 2px #020707;
 }
-.menu-left{
-    padding: 7px;
-    color: #DDD;
-    font-weight: 600;
+.float-icon-arrow img{
+    width: 25px;
 }
 .cardcontainer{
     display: flex;
@@ -565,5 +525,8 @@ hr{
     }
     .text{
         font-size: small;
+    }
+    .float-icon-arrow img{
+        width: 10px;
     }
   };
